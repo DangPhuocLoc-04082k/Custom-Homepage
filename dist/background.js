@@ -1,0 +1,1 @@
+chrome.tabs.onCreated.addListener((function(e){console.log("🚀 ~ file: background.js ~ line 4 ~ tab",e),function(e){chrome.storage.local.get({enabled:!1,url:""},(function(n){"chrome://newtab/"==e.url&&n.enabled&&(""==n.url||"undefined"==n.url?chrome.tabs.update(e.id,{url:"chrome://newtab/"}):chrome.tabs.update(e.id,{url:n.url}))}))}(e)}));
