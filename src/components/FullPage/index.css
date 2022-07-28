@@ -1,0 +1,24 @@
+.nav__icon:hover {
+    background-color: rgba(0, 0, 0, 0.519);
+}
+
+.mySwiper {
+    width: 45%;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.tabs .MuiTabs-flexContainer {
+    justify-content: space-evenly;
+}
+
+.tabs .MuiTabs-flexContainer button {
+    color: #000;
+    text-transform: initial;
+}
+
+.tabs .MuiTabs-indicator {
+    background-color: #16a3d7;
+}

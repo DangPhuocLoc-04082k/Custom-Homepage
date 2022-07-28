@@ -1,0 +1,35 @@
+.add__tabs {
+    border-right: none !important;
+}
+
+.add__tabs .MuiTabs-indicator {
+    background-color: #16a3d7;
+
+}
+
+.add__tabs .MuiTabs-flexContainer {
+    padding: 10px;
+}
+
+.add__tabs .MuiTabs-flexContainer button {
+    color: rgb(153, 153, 153);
+    text-transform: initial;
+    min-height: auto;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    padding: 10px 5px;
+    width: 120px;
+    justify-content: flex-start;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+}
+
+.add__tabs .MuiTabs-flexContainer button:hover {
+    background-color: rgb(227, 227, 227);
+    color: rgb(32, 32, 32);
+}
+
+
+.add__tabs .MuiTabs-flexContainer button:hover .item__icon {
+    filter: invert(1);
+}
